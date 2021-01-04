@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ludo</string>
+    <string name="board">LudoBoard</string>
+    <string name="mode1">Normal Game</string>
+    <string name="mode2">One Piece Game</string>
+</resources>

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div .bg{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  /* background-image: linear-gradient(to right, #c73a3a, #2c2cb7); */
+}
+/*
+.bg {
+  background-image: linear-gradient(to right, #c73a3a, #2c2cb7);
+  height: 100%;
+} */

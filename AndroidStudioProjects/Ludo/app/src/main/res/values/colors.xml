@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#159968</color>
+    <color name="primaryRed">@android:color/holo_red_dark</color>
+    <color name="secondaryRed">@android:color/holo_red_light</color>
+    <color name="gradientStart">#159957</color>
+    <color name="gradientEnd">#155799</color>
+    <color name="fireOpal">#EE5C51</color>
+    <color name="Asparagus">#84A17B</color>
+    <color name="brightYellow">#FFB131</color>
+    <color name="Catawba">#713E4F</color>
+    <color name="venetianRed">#BF201E</color>
+    <color name="transparent">#00000000</color>
+    <color name="cadmiumOrange">#FB8B24</color>
+    <color name="redPiece">@android:color/holo_red_light</color>
+    <color name="bluePiece">@android:color/holo_blue_light</color>
+    <color name="greenPiece">@android:color/holo_green_dark</color>
+    <color name="yellowPiece">#ff0</color>
+
+
+</resources>

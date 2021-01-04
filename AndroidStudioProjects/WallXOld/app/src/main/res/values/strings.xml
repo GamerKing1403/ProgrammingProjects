@@ -1,0 +1,47 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>-->
+
+<resources>
+    <string name="app_name">WallX</string>
+    <string name="creator">TheBetterSide</string>
+    <string name="logo">Logo</string>
+    <string name="title">WallX: Wallpapers Of All Sorts</string>
+    <string name="popular">Popular</string>
+    <string name="Categories">Categories</string>
+    <string name="hello">Hello there!</string>
+    <string name="welcome">Welcome to WallX.</string>
+    <string name="go">Let\'s Go</string>
+    <string name="built">Built with \u2665 by</string>
+    <string name="first_on_boarding">First things, first!</string>
+    <string name="q1">What should we call you?</string>
+    <string name="ok">Next \u2192 </string>
+    <string name="background">Background Image</string>
+    <string name="imgHolder">Image Holder</string>
+    <string name="imgFormatter">Image Formatter</string>
+    <string name="back">←</string>
+    <string name="favourite">\u2764</string>
+    <string name="download">↓</string>
+    <string name="setWallpaper">Set As Wallpaper</string>
+    <string name="SetAs">Set As:-</string>
+    <string name="homeScr">Home Screen</string>
+    <string name="lockScr">Lock Screen</string>
+    <string name="bothLockHome">Home And Lock Screen</string>
+    <string name="sample">Sample</string>
+    <string name="quality">Your quality.\nYou choose.</string>
+    <string name="res">Set your preview resolution</string>
+    <string name="sampleName">Doris Roberts</string>
+    <string name="pushNotification">Would You Like Push Notifications?</string>
+    <string name="bitMore">Just a bit more…</string>
+    <string name="sideChoice">Choose your side…</string>
+    <string name="darkOrBright">Darkness or Light?</string>
+    <string name="almostDone">Almost Done.</string>
+    <string name="accLink">Would you link your account?</string>
+    <string name="sysDecide">I\'ll let my system decide</string>
+    <string name="dark">Darkness</string>
+    <string name="light">Light</string>
+    <string name="high">Highest</string>
+    <string name="medium">Medium</string>
+    <string name="low">Lowest</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="liked">Liked</string>
+</resources>

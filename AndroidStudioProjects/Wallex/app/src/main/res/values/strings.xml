@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wallx</string>
+    <string name="creator">The Better Side</string>
+    <string name="logo">Logo</string>
+    <string name="title">A@string/app_name: Wallpapers Of All Sorts</string>
+    <string name="popular">Popular</string>
+    <string name="Categories">Categories</string>
+    <string name="hello">Hello there!</string>
+    <string name="welcome">Welcome to @string/app_name.</string>
+    <string name="go">Let\'s Go</string>
+    <string name="built">Built with \u2665 by</string>
+    <string name="first_on_boarding">First things, first!</string>
+    <string name="q1">What should we call you?</string>
+    <string name="ok">Next \u2192 </string>
+    <string name="background">Background Image</string>
+    <string name="imgHolder">Image Holder</string>
+    <string name="imgFormatter">Image Formatter</string>
+</resources>

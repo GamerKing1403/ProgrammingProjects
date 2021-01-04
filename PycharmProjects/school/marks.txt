@@ -1,0 +1,4 @@
+1,Arkopal,80.0
+2,Tushar,50.0
+1,Nil,30.0
+2,Hunter,60.0

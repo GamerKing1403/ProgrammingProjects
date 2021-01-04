@@ -1,0 +1,1 @@
+nircmd exec hide pythonUpdater.bat

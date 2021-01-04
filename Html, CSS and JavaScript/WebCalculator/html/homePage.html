@@ -1,0 +1,50 @@
+<!DOCTYPE html5>
+<html>
+
+	<head>
+		<!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+
+		<title>Web Calculator</title>
+		<link rel="stylesheet" type="text/css" href="../css/script.css">
+		<script type="text/javascript" src="../javascript/main.js"></script>
+	</head>
+
+	<body>
+
+		<div class="bg"></div>
+
+		<div class="main">
+			<form name="form">
+				<input name="textview" class="textview">
+			</form>
+
+			<div class="buttons">
+
+				<input type="button" value="C" onclick="clean()">
+				<input type="button" value="<" onclick="back()">
+				<input type="button" value="/" onclick="insert('/')">
+				<input type="button" value="*" onclick="insert('*')">
+				<br>
+				<input type="button" value="7" onclick="insert(7)">
+				<input type="button" value="8" onclick="insert(8)">
+				<input type="button" value="9" onclick="insert(9)">
+				<input type="button" value="-" onclick="insert('-')">
+				<br>
+				<input type="button" value="1" onclick="insert(1)">
+				<input type="button" value="2" onclick="insert(2)">
+				<input type="button" value="3" onclick="insert(3)">
+				<input type="button" value="+" onclick="insert('+')">
+				<br>
+				<input id="zero" type="button" value="0" onclick="insert(0)">
+				<input type="button" value="." onclick="insert('.')">
+				<input type="button" value="=" onclick="equal()">
+
+			</div>
+
+      <a href="../index.html">testing</a>
+      
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "563761720209",
+    "firebase_url": "https://wallex-1403.firebaseio.com",
+    "project_id": "wallex-1403",
+    "storage_bucket": "wallex-1403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563761720209:android:deeac75fe22b78b3ba8830",
+        "android_client_info": {
+          "package_name": "com.thebetterside.wallex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563761720209-do04guh5jr33de05chvob9eok99g162e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thebetterside.wallex",
+            "certificate_hash": "de1004a954d7253a371e3fbdf65a32131e2bd06d"
+          }
+        },
+        {
+          "client_id": "563761720209-4c5ct0069b1h4j2bt3qbj12a7rapf74t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP5cefY2Jc2ZmuCJIooEXYKLguRNViV_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563761720209-4c5ct0069b1h4j2bt3qbj12a7rapf74t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

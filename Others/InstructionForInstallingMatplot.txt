@@ -1,0 +1,13 @@
+first open command prompt by searching for it
+type pip in it
+if it shows something like usage then skip to 7
+else continue
+1)open control panel then go to system 
+2)click advanced system settings
+3)click environment variables
+4)under the system variable part click on the one with the variable as Path then on edit
+5)copy the path to your python folder and add it to the values in the path variable(repeat this step for the folder named scripts in the python folder)
+6)close everything(Press OK not Cancel)
+7)open command prompt again
+8)type pip install matplotlib
+9)then its all done.

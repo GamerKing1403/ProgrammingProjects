@@ -1,0 +1,4 @@
+2020/12/03-14:17:01.440 460c Log #3: 5 ops saved to Table #5 OK
+2020/12/03-14:17:02.444 460c Archiving C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/000003.log: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/000003.log: Could not rename file: File currently in use. (ChromeMethodBFE: 14::RenameFile::2)
+2020/12/03-14:17:02.445 460c Table #4: 5 entries OK
+2020/12/03-14:17:03.341 361c Archiving C:\Users\user2020/12/03-14:17:03.463 460c Archiving C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/MANIFEST-000001: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/MANIFEST-000001: Could not rename file: File currently in use. (ChromeMethodBFE: 14::RenameFile::2)

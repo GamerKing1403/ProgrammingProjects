@@ -1,0 +1,2 @@
+c:\python3.7\python.exe -m pip install --upgrade pip
+pip install altgraph appdirs beautifulsoup4 certifi chardet click cycler future idna inflection joblib kiwisolver matplotlib nltk numpy pandas pathtools pefile Pillow pip pyee pygame pyinstaller PyJWT pyparsing pyppeteer PySocks pytz Quandl regex requests scipy selenium setuptools six sklearn soupsieve stem tflearn threadpoolctl torrequest tqdm twilio urllib3 watchdog websockets 

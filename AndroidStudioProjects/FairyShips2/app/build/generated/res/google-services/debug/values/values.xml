@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">929411546625-stqadrvheo9e06ni1bdmn7c9rmeggd9u.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fairyship1.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">929411546625</string>
+    <string name="google_api_key" translatable="false">AIzaSyAvk312hSKogZ57efAHjIB5GWNlUhm9vjU</string>
+    <string name="google_app_id" translatable="false">1:929411546625:android:39e6799e7b4494de900a00</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAvk312hSKogZ57efAHjIB5GWNlUhm9vjU</string>
+    <string name="google_storage_bucket" translatable="false">fairyship1.appspot.com</string>
+    <string name="project_id" translatable="false">fairyship1</string>
+</resources>

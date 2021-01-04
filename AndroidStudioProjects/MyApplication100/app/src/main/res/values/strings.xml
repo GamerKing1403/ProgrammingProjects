@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application100</string>
+    <string name="todo">TODO</string>
+    <string name="works">NO Time</string>
+    <string name="password">PassWord</string>
+    <string name="email">E-mail</string>
+    <string name="Time">Time</string>
+    <string name="date">Date</string>
+    <string name = "done">Done</string>
+    <string name = "reset">Reset</string>
+</resources>

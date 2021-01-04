@@ -1,0 +1,5 @@
+    A)Charles Babbage   B)Issac Newton  C)Alexander Graham Bell D)Thomas Edison
+    A)Java              B)C             C)C#                    D)Python
+    A)Tim Berners-Lee   B)Marie Curie   C)Stephen King          D)Stephen Hawking
+    A)2D7               B)3D9           C)2E5                   D)3D8
+    A)()                B)<>            C){}                    D)[]

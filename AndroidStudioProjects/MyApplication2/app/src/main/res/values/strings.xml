@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello">Hello</string>
+    <string name="press_me">Press Me</string>
+    <string name="reset">Reset</string>
+</resources>
