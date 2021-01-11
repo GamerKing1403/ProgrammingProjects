@@ -5,8 +5,8 @@ players = []
 win_width = 1080
 win_height = 720
 win = pygame.display.set_mode((win_width, win_height))
-player1 = Player(0, win_height/2-50, 20, 100, (0, 0, 0), win)
-player2 = Player(win_width-20, win_height/2-50, 20, 100, (0, 0, 0), win)
+player1 = Player(0, win_height/2-50, 20, 100, (0, 0, 0))
+player2 = Player(win_width-20, win_height/2-50, 20, 100, (0, 0, 0))
 players.append(player1)
 players.append(player2)
 
