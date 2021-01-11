@@ -1,32 +1,35 @@
-from player import Player
 import pygame
+from network import Network
+from ball import Ball
 
-players = []
-win_width = 1080
-win_height = 720
-win = pygame.display.set_mode((win_width, win_height))
-player1 = Player(0, win_height/2-50, 20, 100, (0, 0, 0))
-player2 = Player(win_width-20, win_height/2-50, 20, 100, (0, 0, 0))
-players.append(player1)
-players.append(player2)
+winDimension = [1080, 720]
+win = pygame.display.set_mode(winDimension)
+pygame.display.set_caption("Ping Pong Game")
 
 
-def redrawWindow(window, player):
+def redrawWindow(window, player, ball):
     window.fill((255, 255, 255))
+    ball.draw(window)
+    ball.collision(player, winDimension)
     for p in player:
-        p.draw()
+        p.draw(window)
     pygame.display.update()
 
 
 def main():
     run = True
     clock = pygame.time.Clock()
+    n = Network()
+    p = n.getP()
+    b = Ball(winDimension[0]/2, winDimension[1]/2, 5, 5)
 
     while run:
         clock.tick(60)
-        for p in players:
-            p.move()
-        redrawWindow(win, players)
+        p2 = n.send(p)
+        players = [p, p2]
+        p.move()
+        b.move()
+        redrawWindow(win, players, b)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
