@@ -49,7 +49,6 @@ class player(object):
         self.standing = True
         self.hitBox = (self.x + 17, self.y + 11, 29, 52)
 
-
 # This function is for drawing the player on the board and to see the direction he will be facing
     def draw(self, window):
         if self.walkCount + 1 >= 27:

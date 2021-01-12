@@ -10,7 +10,6 @@ pygame.display.set_caption("Ping Pong Game")
 def redrawWindow(window, player, ball):
     window.fill((255, 255, 255))
     ball.draw(window)
-    ball.collision(player, winDimension)
     for p in player:
         p.draw(window)
     pygame.display.update()
@@ -28,7 +27,7 @@ def main():
         p2 = n.send(p)
         players = [p, p2]
         p.move()
-        b.move()
+        b.move(players, winDimension)
         redrawWindow(win, players, b)
 
         for event in pygame.event.get():
