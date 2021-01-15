@@ -12,18 +12,18 @@ screenHeight = 480
 pygame.display.set_caption("First Game")
 
 # Loading all The Images.
-walkRight = [pygame.image.load('R1.png'), pygame.image.load('R2.png'), pygame.image.load('R3.png'),
-             pygame.image.load('R4.png'), pygame.image.load('R5.png'), pygame.image.load('R6.png'),
-             pygame.image.load('R7.png'), pygame.image.load('R8.png'), pygame.image.load('R9.png')]
-walkLeft = [pygame.image.load('L1.png'), pygame.image.load('L2.png'), pygame.image.load('L3.png'),
-            pygame.image.load('L4.png'), pygame.image.load('L5.png'), pygame.image.load('L6.png'),
-            pygame.image.load('L7.png'), pygame.image.load('L8.png'), pygame.image.load('L9.png')]
-bg = pygame.image.load('bg.jpg')
-char = pygame.image.load('standing.png')
-bullet_img = pygame.image.load('bullet.png')
-bulletSound = pygame.mixer.Sound('bullet.wav')
-hitSound = pygame.mixer.Sound('hit.wav')
-music = pygame.mixer.music.load('music.mp3')
+walkRight = [pygame.image.load('Assets/R1.png'), pygame.image.load('Assets/R2.png'), pygame.image.load('Assets/R3.png'),
+             pygame.image.load('Assets/R4.png'), pygame.image.load('Assets/R5.png'), pygame.image.load('Assets/R6.png'),
+             pygame.image.load('Assets/R7.png'), pygame.image.load('Assets/R8.png'), pygame.image.load('Assets/R9.png')]
+walkLeft = [pygame.image.load('Assets/L1.png'), pygame.image.load('Assets/L2.png'), pygame.image.load('Assets/L3.png'),
+            pygame.image.load('Assets/L4.png'), pygame.image.load('Assets/L5.png'), pygame.image.load('Assets/L6.png'),
+            pygame.image.load('Assets/L7.png'), pygame.image.load('Assets/L8.png'), pygame.image.load('Assets/L9.png')]
+bg = pygame.image.load('Assets/bg.jpg')
+char = pygame.image.load('Assets/standing.png')
+bullet_img = pygame.image.load('Assets/bullet.png')
+bulletSound = pygame.mixer.Sound('Assets/bullet.wav')
+hitSound = pygame.mixer.Sound('Assets/hit.wav')
+pygame.mixer.music.load('Assets/music.mp3')
 
 # Sets the Background Music
 pygame.mixer.music.play(-1)
@@ -84,14 +84,20 @@ class player(object):
 
 class enemy(object):    # This the Enemy Object.
     # this loads all the images for The Enemy
-    walkRight = [pygame.image.load("R1E.png"), pygame.image.load("R2E.png"), pygame.image.load("R3E.png"),
-                 pygame.image.load("R4E.png"), pygame.image.load("R5E.png"), pygame.image.load("R6E.png"),
-                 pygame.image.load("R7E.png"), pygame.image.load("R8E.png"), pygame.image.load("R9E.png"),
-                 pygame.image.load("R10E.png"), pygame.image.load("R11E.png")]
-    walkLeft = [pygame.image.load("L1E.png"), pygame.image.load("L2E.png"), pygame.image.load("L3E.png"),
-                pygame.image.load("L4E.png"), pygame.image.load("L5E.png"), pygame.image.load("L6E.png"),
-                pygame.image.load("L7E.png"), pygame.image.load("L8E.png"), pygame.image.load("L9E.png"),
-                pygame.image.load("L10E.png"), pygame.image.load("L11E.png")]
+    walkRight = [pygame.image.load("Assets/R1E.png"), pygame.image.load("Assets/R2E.png"), pygame.image.load(
+        "Assets/R3E.png"),
+                 pygame.image.load("Assets/R4E.png"), pygame.image.load("Assets/R5E.png"), pygame.image.load(
+            "Assets/R6E.png"),
+                 pygame.image.load("Assets/R7E.png"), pygame.image.load("Assets/R8E.png"), pygame.image.load(
+            "Assets/R9E.png"),
+                 pygame.image.load("Assets/R10E.png"), pygame.image.load("Assets/R11E.png")]
+    walkLeft = [pygame.image.load("Assets/L1E.png"), pygame.image.load("Assets/L2E.png"), pygame.image.load(
+        "Assets/L3E.png"),
+                pygame.image.load("Assets/L4E.png"), pygame.image.load("Assets/L5E.png"), pygame.image.load(
+            "Assets/L6E.png"),
+                pygame.image.load("Assets/L7E.png"), pygame.image.load("Assets/L8E.png"), pygame.image.load(
+            "Assets/L9E.png"),
+                pygame.image.load("Assets/L10E.png"), pygame.image.load("Assets/L11E.png")]
 
     def __init__(self, x, y, width, height, player_x):      # The Initiation Function
         self.x = x
