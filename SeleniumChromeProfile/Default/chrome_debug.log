@@ -1,68 +1,77 @@
-[1203/141351.816:INFO:CONSOLE(1210)] "Uncaught ReferenceError: twttr is not defined", source: https://www.viz.com/account/manage_membership (1210)
-[1203/141353.558:INFO:CONSOLE(1)] "", source: https://s.pinimg.com/ct/lib/main.d71a97dd.js (1)
-[1203/141559.734:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
-[1203/141602.633:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141604.708:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141612.992:INFO:CONSOLE(1)] "Uncaught (in promise) UnknownError: Internal error opening backing store for indexedDB.open.", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141613.476:INFO:CONSOLE(1210)] "Uncaught ReferenceError: twttr is not defined", source: https://www.viz.com/account/manage_membership (1210)
-[1203/141613.650:INFO:CONSOLE(1)] "[2020-12-03T08:46:13.650Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141613.650:INFO:CONSOLE(1)] "[2020-12-03T08:46:13.651Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141613.991:INFO:CONSOLE(1)] "", source: https://s.pinimg.com/ct/lib/main.d71a97dd.js (1)
-[1203/141614.762:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141616.868:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141617.184:INFO:CONSOLE(1)] "[2020-12-03T08:46:17.184Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141617.185:INFO:CONSOLE(1)] "[2020-12-03T08:46:17.185Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141617.450:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141617.450:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141618.369:INFO:CONSOLE(1272)] "Uncaught ReferenceError: twttr is not defined", source: https://www.viz.com/account/manage_membership?do_post_login=true (1272)
-[1203/141620.090:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141621.501:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141622.138:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141622.144:INFO:CONSOLE(1)] "[2020-12-03T08:46:22.144Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141622.147:INFO:CONSOLE(1)] "[2020-12-03T08:46:22.145Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141623.537:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141623.538:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141624.176:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141624.892:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
-[1203/141626.191:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141627.556:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141627.588:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141629.581:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141629.612:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141629.613:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141630.978:INFO:CONSOLE(1)] "", source: https://s.pinimg.com/ct/lib/main.d71a97dd.js (1)
-[1203/141633.659:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141635.690:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141635.690:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141637.804:INFO:CONSOLE(1)] "Uncaught (in promise) UnknownError: Internal error opening backing store for indexedDB.open.", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141638.052:INFO:CONSOLE(1272)] "Uncaught ReferenceError: twttr is not defined", source: https://www.viz.com/account/manage_membership (1272)
-[1203/141638.485:INFO:CONSOLE(1)] "[2020-12-03T08:46:38.486Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141638.486:INFO:CONSOLE(1)] "[2020-12-03T08:46:38.486Z]  @firebase/analytics: [object DOMException]", source: https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js (1)
-[1203/141639.858:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141639.988:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141641.906:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141641.906:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141642.016:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb,IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\IndexedDB\https_www.viz.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141642.206:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141642.206:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141642.248:INFO:CONSOLE(1)] "", source: https://s.pinimg.com/ct/lib/main.d71a97dd.js (1)
-[1203/141645.941:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141646.254:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141647.949:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141647.950:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141648.289:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141648.290:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141651.997:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141652.319:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141654.013:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141654.015:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141654.358:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141654.359:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141658.212:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141658.400:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141700.251:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141700.251:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141700.421:ERROR:sandbox_origin_database.cc(190)] SandboxOriginDatabase failed at: Init@../../storage/browser/file_system/sandbox_origin_database.cc:94 with error: IO error: C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\File System\Origins/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[1203/141700.422:WARNING:sandbox_origin_database.cc(106)] Attempting to repair SandboxOriginDatabase.
-[1203/141704.353:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
-[1203/141704.476:WARNING:sandbox_origin_database.cc(140)] Failed to repair SandboxOriginDatabase.
+[0116/234632.510:INFO:CONSOLE(0)] "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.", source:  (0)
+[0116/234632.976:INFO:CONSOLE(6)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://claystage.com/wp-content/cache/minify/a44b0.js (6)
+[0116/234714.209:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/234714.210:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/234714.213:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/234714.213:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/234717.248:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
+[0116/234717.620:INFO:CONSOLE(0)] "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.", source:  (0)
+[0116/234717.812:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/234717.812:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/234717.812:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/234717.812:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/234720.724:INFO:CONSOLE(6)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://claystage.com/wp-content/cache/minify/a44b0.js (6)
+[0116/234949.314:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/234949.319:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/234949.320:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/234949.321:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/234952.326:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
+[0116/234952.573:INFO:CONSOLE(0)] "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.", source:  (0)
+[0116/234952.752:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/234952.752:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/234952.753:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/234952.754:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/234954.951:INFO:CONSOLE(6)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://claystage.com/wp-content/cache/minify/a44b0.js (6)
+[0116/235249.345:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/235249.351:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/235249.351:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/235249.351:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/235252.364:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
+[0116/235252.691:INFO:CONSOLE(0)] "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.", source:  (0)
+[0116/235252.871:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/235252.871:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/235252.871:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/235252.872:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/235254.901:INFO:CONSOLE(6)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://claystage.com/wp-content/cache/minify/a44b0.js (6)
+[0116/235526.609:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/235526.610:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/235526.611:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/235526.611:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/235529.618:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
+[0116/235529.819:INFO:CONSOLE(0)] "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.", source:  (0)
+[0116/235530.009:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/235530.009:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/235530.010:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/235530.010:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/235532.627:INFO:CONSOLE(6)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://claystage.com/wp-content/cache/minify/a44b0.js (6)
+[0116/235710.055:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/235710.062:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/235710.065:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/235710.065:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/235713.089:ERROR:service_worker_storage.cc(1753)] Failed to delete the database: Database IO error
+[0116/235713.514:INFO:CONSOLE(0)] "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged.", source:  (0)
+[0116/235713.705:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0116/235713.705:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\GPUCache to C:\Users\user\Documents\ProgrammingProjects\SeleniumChromeProfile\Default\old_GPUCache_000
+[0116/235713.705:ERROR:disk_cache.cc(184)] Unable to create cache
+[0116/235713.705:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[0116/235715.952:INFO:CONSOLE(6)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://claystage.com/wp-content/cache/minify/a44b0.js (6)
+[0117/000716.485:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 1 time(s)
+[0117/000716.666:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 98 ms
+[0117/000718.011:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 2 time(s)
+[0117/000718.224:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 106 ms
+[0117/000718.645:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0117/000719.567:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 3 time(s)
+[0117/000719.747:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 99 ms
+[0117/000729.274:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 4 time(s)
+[0117/000729.476:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 111 ms
+[0117/000731.034:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 5 time(s)
+[0117/000731.234:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 102 ms
+[0117/000756.302:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 1 time(s)
+[0117/000756.497:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 109 ms
+[0117/000805.239:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 2 time(s)
+[0117/000805.430:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 99 ms
+[0117/000807.552:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 3 time(s)
+[0117/000807.787:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 126 ms
+[0117/000809.245:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 6 time(s)
+[0117/000811.320:WARNING:gpu_process_host.cc(1266)] The GPU process has crashed 4 time(s)
+[0117/000811.505:WARNING:gpu_process_host.cc(990)] Reinitialized the GPU process after a crash. The reported initialization time was 100 ms
