@@ -3,7 +3,7 @@ import requests
 from datetime import datetime as dt
 import time
 from selenium import webdriver
-from webdriver_manager.firefox import DriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 slack_token = 'xoxb-1546263022019-1569905814384-VwVfQLvSwSUpZ9OWtdV6GyHb'
@@ -17,9 +17,9 @@ nxt_sunday_date = today.day + (7 - currentDay[2])
 nxt_sunday = dt(year=today.year, month=today.month, day=nxt_sunday_date, hour=22, minute=25, second=0)
 
 
-firefoxOptions = webdriver.FirefoxOptions()
-firefoxOptions.add_argument('--headless')
-driver = webdriver.Chrome(DriverManager().install(), options=firefoxOptions)
+chromeOptions = webdriver.FirefoxOptions()
+chromeOptions.add_argument('--headless')
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=chromeOptions)
 driver.get('https://claystage.com/one-piece-chapter-release-schedule-for-{}'.format(currentDay[0]))
 value = driver.find_element_by_xpath(
     "/html/body/div[1]/div/main/div/div/div/article/div/div[3]/table/tbody/tr[{}]/td[2]".format(currentDay[1])).text
