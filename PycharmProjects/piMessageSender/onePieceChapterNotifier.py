@@ -17,7 +17,7 @@ nxt_sunday_date = today.day + (7 - currentDay[2])
 nxt_sunday = dt(year=today.year, month=today.month, day=nxt_sunday_date, hour=22, minute=25, second=0)
 
 
-chromeOptions = webdriver.FirefoxOptions()
+chromeOptions = webdriver.ChromeOptions()
 chromeOptions.add_argument('--headless')
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=chromeOptions)
 driver.get('https://claystage.com/one-piece-chapter-release-schedule-for-{}'.format(currentDay[0]))
