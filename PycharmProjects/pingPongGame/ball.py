@@ -15,8 +15,10 @@ class Ball:
         self.space = space
         self.body = pymunk.Body()
         self.shape = pymunk.Circle(self.body, self.r)
+        self.body.position = self.p
+        self.body.angular_velocity = self.vel
         self.shape.mass = self.mass
         self.space.add(self.body, self.shape)
 
     def draw(self, screen):
-        return pymunk.pygame_util.DrawOptions(screen)
+        self.space.debug_draw(pymunk.pygame_util.DrawOptions(screen))
