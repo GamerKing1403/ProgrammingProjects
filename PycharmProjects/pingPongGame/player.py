@@ -1,5 +1,4 @@
 import pygame
-import main
 
 
 class Player:
@@ -11,7 +10,6 @@ class Player:
         self.color = color
         self.rect = (x,  y, width, height)
         self.vel = 3
-        self.windowHeight = main.win_height
 
     def draw(self, win):
         pygame.draw.rect(win, self.color, self.rect)
@@ -19,10 +17,10 @@ class Player:
     def move(self):
         keys = pygame.key.get_pressed()
 
-        if keys[pygame.K_UP] and self.y > 0:
+        if keys[pygame.K_w] and self.y > 0:
             self.y -= self.vel
 
-        if keys[pygame.K_DOWN] and self.y < self.windowHeight - self.height:
+        if keys[pygame.K_s] and self.y < 720 - self.height:
             self.y += self.vel
 
         self.update()

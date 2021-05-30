@@ -2,8 +2,8 @@ import socket
 from _thread import *
 from player import Player
 import pickle
-import main
-
+win_height = 720
+win_width = 1080
 
 server = "192.168.0.101"
 port = 5555
@@ -18,8 +18,8 @@ except socket.error as e:
 s.listen(2)
 print("Waiting for a connection, Server Started")
 
-player1 = Player(0, main.win_height()/2-50, 20, 100, (0, 0, 0))
-player2 = Player(main.win_width()-20, main.win_height()/2-50, 20, 100, (0, 0, 0))
+player1 = Player(0, win_height/2-50, 20, 100, (0, 0, 0))
+player2 = Player(win_width-20, win_height/2-50, 20, 100, (0, 0, 0))
 players = [player1, player2]
 
 
@@ -44,6 +44,8 @@ def threaded_client(conn, player):
         except socket.error as err:
             print(err)
             break
+        except EOFError as err:
+            break
         except ValueError as err:
             break
 
@@ -60,3 +62,5 @@ while True:
 
     start_new_thread(threaded_client, (connection, currentPlayer,))
     currentPlayer += 1
+    if currentPlayer == 2:
+        currentPlayer = 0

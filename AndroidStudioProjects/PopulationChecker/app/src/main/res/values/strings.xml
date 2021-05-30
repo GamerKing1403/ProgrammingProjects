@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PopulationChecker</string>
+    <string name="submit">Submit</string>
+    <string name="Ins">Please Enter the year For which you want the population.</string>
+</resources>
